@@ -1,0 +1,44 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #75733f;
+}
+
+.container-table{
+    max-width: 50%;
+    width: 100%;
+    margin: auto;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title{
+    text-align: center;
+}
+.title h1{
+    font-size: 30px;
+    font-weight: 700;
+    color:#adae64 ;
+}
+  td, th {
+    border: 5px solid #b3ad60;
+    text-align: center;
+    padding: 10px;
+    background-color: #ece7a5;
+
+  }
+  table  {
+    border: 10px solid #b3ad60;
+    text-align: center;
+    padding: 10px;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .table{
+    width: 100%;
+    margin-top: 40px;
+  }
