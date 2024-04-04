@@ -42,3 +42,46 @@ body{
     width: 100%;
     margin-top: 40px;
   }
+
+  /* Responsive styles */
+@media only screen and (max-width: 768px) {
+    .container-table {
+        max-width: 100%;
+    }
+
+    .table {
+        overflow-x: auto;
+    }
+
+    th,
+    td {
+        white-space: nowrap;
+    }
+
+    th,
+    td {
+        display: block;
+        padding: 10px;
+    }
+
+    th {
+        font-size: 18px; /* Adjust as needed */
+        background-color: #ece7a5;
+        color: #adae64;
+        font-weight: bold;
+    }
+
+    td {
+        border-top: 1px solid #b3ad60;
+        border-bottom: 1px solid #b3ad60;
+    }
+
+    td:nth-of-type(odd) {
+        background-color: #ece7a5;
+    }
+
+    td:nth-of-type(even) {
+        background-color: #adae64;
+        color: #ece7a5;
+    }
+}
