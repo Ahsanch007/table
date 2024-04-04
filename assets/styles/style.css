@@ -1,12 +1,11 @@
-
-body{
+body {
     margin: 0;
     padding: 0;
     background-color: #75733f;
 }
 
-.container-table{
-    max-width: 50%;
+.container-table {
+    max-width: 50%; /* Adjust this value as needed */
     width: 100%;
     margin: auto;
     height: 100vh;
@@ -14,74 +13,48 @@ body{
     align-items: center;
     justify-content: center;
 }
-.title{
+
+.title {
     text-align: center;
 }
-.title h1{
+
+.title h1 {
     font-size: 30px;
     font-weight: 700;
-    color:#adae64 ;
+    color: #adae64;
 }
-  td, th {
+
+td, th {
     border: 5px solid #b3ad60;
     text-align: center;
     padding: 10px;
     background-color: #ece7a5;
+}
 
-  }
-  table  {
+table {
+    width: 100%;
+    border-collapse: collapse;
     border: 10px solid #b3ad60;
     text-align: center;
     padding: 10px;
-  }
-  table {
-    width: 100%;
-    border-collapse: collapse;
-  }
-  .table{
+}
+
+.table {
     width: 100%;
     margin-top: 40px;
-  }
+    overflow-x: auto; /* Add horizontal scroll for small screens */
+}
 
-  /* Responsive styles */
 @media only screen and (max-width: 768px) {
     .container-table {
-        max-width: 100%;
+        max-width: 100%; /* Adjust this value as needed */
     }
 
-    .table {
-        overflow-x: auto;
+    .title h1 {
+        font-size: 24px; /* Adjust font size for smaller screens */
     }
 
-    th,
-    td {
-        white-space: nowrap;
-    }
-
-    th,
-    td {
-        display: block;
-        padding: 10px;
-    }
-
-    th {
-        font-size: 18px; /* Adjust as needed */
-        background-color: #ece7a5;
-        color: #adae64;
-        font-weight: bold;
-    }
-
-    td {
-        border-top: 1px solid #b3ad60;
-        border-bottom: 1px solid #b3ad60;
-    }
-
-    td:nth-of-type(odd) {
-        background-color: #ece7a5;
-    }
-
-    td:nth-of-type(even) {
-        background-color: #adae64;
-        color: #ece7a5;
+    td, th {
+        padding: 5px; /* Adjust cell padding for smaller screens */
     }
 }
