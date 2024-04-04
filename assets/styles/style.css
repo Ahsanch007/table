@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #75733f;
+    background: linear-gradient(0deg, rgba(226,221,107,1) 0%, rgba(0,1,1,1) 100%);
 }
 
 .container-table {
